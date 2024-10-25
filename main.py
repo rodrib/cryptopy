@@ -13,7 +13,8 @@ about_page = st.Page(
 project_2_page = st.Page(
     "views/01_ofuscacion_text.py",
     title="Ofuscador y Estenografia",
-    icon=":material/smart_toy:",
+    # icon=":material/smart_toy:",
+    icon=":material/article:",
 )
 
 project_3_page = st.Page(
