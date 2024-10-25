@@ -19,8 +19,8 @@ project_2_page = st.Page(
 
 project_3_page = st.Page(
     "views/02_ofuscacion_img.py",
-    title="Estadisticas de las Investigaciones",
-    icon=":material/bar_chart:",
+    title="Ofuscacion de Imagenes",
+    icon=":material/image:",
 )
 
 
