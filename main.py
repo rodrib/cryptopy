@@ -4,7 +4,7 @@ import streamlit as st
 # --- PAGE SETUP ---
 about_page = st.Page(
     "views/00_cryptography.py",
-    title="Sobre Nosotros",
+    title="Criptografia",
     icon=":material/account_circle:",
     default=True,
 )
@@ -12,7 +12,7 @@ about_page = st.Page(
 
 project_2_page = st.Page(
     "views/01_ofuscacion_text.py",
-    title="Documentos",
+    title="Ofuscador y Estenografia",
     icon=":material/smart_toy:",
 )
 
