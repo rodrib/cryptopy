@@ -5,7 +5,7 @@ import streamlit as st
 about_page = st.Page(
     "views/00_cryptography.py",
     title="Criptografia",
-    icon=":material/account_circle:",
+    icon=":material/lock:",
     default=True,
 )
 
