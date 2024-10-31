@@ -5,7 +5,7 @@ import streamlit as st
 about_page = st.Page(
     "views/00_cryptography.py",
     title="Criptografia",
-    icon=":material/lock:",
+    icon=":material/home:",
     default=True,
 )
 
@@ -23,6 +23,12 @@ project_3_page = st.Page(
     icon=":material/image:",
 )
 
+project_4_page = st.Page(
+    "views/04_cryptografia_clasica.py",
+    title="Criptografia Clasica",
+    icon=":material/lock:",
+)
+
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -31,7 +37,8 @@ project_3_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projectos": [ project_2_page, project_3_page],
+        "Projectos-Herramientas": [ project_2_page, project_3_page],
+        "Criptografia-Conceptos":[project_4_page]
     }
 )
 
