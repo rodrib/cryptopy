@@ -29,6 +29,12 @@ project_4_page = st.Page(
     icon=":material/lock:",
 )
 
+project_5_page = st.Page(
+    "views/05_conceptos.py",
+    title="Conceptos",
+    icon=":material/lock:",
+)
+
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -38,7 +44,7 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Projectos-Herramientas": [ project_2_page, project_3_page],
-        "Criptografia-Conceptos":[project_4_page]
+        "Criptografia-Conceptos":[project_4_page, project_5_page]
     }
 )
 
