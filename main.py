@@ -35,6 +35,12 @@ project_5_page = st.Page(
     icon=":material/lock:",
 )
 
+project_6_page = st.Page(
+    "views/06_criptografia_simetrica.py",
+    title="Conceptos: AES-HASH",
+    icon=":material/tag:",
+)
+
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -44,7 +50,8 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Projectos-Herramientas": [ project_2_page, project_3_page],
-        "Criptografia-Conceptos":[project_4_page, project_5_page]
+        "Criptografia-Conceptos":[project_4_page, project_5_page],
+        "Criptografia-Simetrica":[project_6_page]
     }
 )
 
