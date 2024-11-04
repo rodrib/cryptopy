@@ -64,8 +64,8 @@ project_9_page = st.Page(
 
 project_10_page = st.Page(
     "views/10_criptografia_ransomware.py",
-    title="Criptografia Cuantica y mas",
-    icon=":material/search_insights:",
+    title="Ransomware",
+    icon=":material/coronavirus:",
 )
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
