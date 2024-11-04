@@ -38,7 +38,7 @@ project_5_page = st.Page(
 project_6_page = st.Page(
     "views/06_criptografia_simetrica.py",
     title="Conceptos: AES-HASH",
-    icon=":material/tag:",
+    icon=":material/key:",
 )
 
 
@@ -46,6 +46,19 @@ project_7_page = st.Page(
     "views/07_criptografia_asimetrica.py",
     title="Conceptos: RSA",
     icon=":material/vpn_key:",
+)
+
+project_8_page = st.Page(
+    "views/08_criptografia_curva_eliptica.py",
+    title="Conceptos y aplicacion",
+    icon=":material/line_curve:",
+)
+
+
+project_9_page = st.Page(
+    "views/09_criptografia_moderna.py",
+    title="Criptografia Cuantica y mas",
+    icon=":material/search_insights:",
 )
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
@@ -58,7 +71,9 @@ pg = st.navigation(
         "Projectos-Herramientas": [ project_2_page, project_3_page],
         "Criptografia-Conceptos":[project_4_page, project_5_page],
         "Criptografia-Simetrica":[project_6_page],
-        "Criptografia-Asimetrica":[project_7_page]
+        "Criptografia-Asimetrica":[project_7_page],
+        "Criptografia-Curva Eliptica":[project_8_page],
+        "Criptografia-Moderna":[project_9_page]
     }
 )
 
