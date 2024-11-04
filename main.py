@@ -61,6 +61,13 @@ project_9_page = st.Page(
     icon=":material/search_insights:",
 )
 
+
+project_10_page = st.Page(
+    "views/10_criptografia_ransomware.py",
+    title="Criptografia Cuantica y mas",
+    icon=":material/search_insights:",
+)
+
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 
@@ -73,7 +80,8 @@ pg = st.navigation(
         "Criptografia-Simetrica":[project_6_page],
         "Criptografia-Asimetrica":[project_7_page],
         "Criptografia-Curva Eliptica":[project_8_page],
-        "Criptografia-Moderna":[project_9_page]
+        "Criptografia-Moderna":[project_9_page],
+        "Criptografia-Ransomware":[project_10_page]
     }
 )
 
