@@ -7,11 +7,12 @@ from io import BytesIO
 st.title("Criptografía")
 
 # URL de la nueva imagen
-image_url = "https://www.fortinet.com/content/fortinet-com/zh_tw/resources/cyberglossary/what-is-cryptography/_jcr_content/par/c05_container_copy_c/par/c28_image_copy_copy.img.jpg/1701209624270.jpg"
+
 
 # Cargar la imagen desde la URL
-response = requests.get(image_url)
-image = Image.open(BytesIO(response.content))
+
+image = "cryp2.jpg"
+
 
 # Agregar la imagen debajo del título
 st.image(image, caption="Criptografía", use_column_width=True)
